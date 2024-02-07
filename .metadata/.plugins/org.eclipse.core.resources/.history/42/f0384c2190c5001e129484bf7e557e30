@@ -1,0 +1,28 @@
+package net.javaguides.springboot.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import net.javaguides.springboot.repository.BeneficiaryRepository;
+
+@RestController
+@RequestMapping("/api/v1")
+public class BeneficiaryController {
+	
+	@Autowired
+	private BeneficiaryRepository beneficiaryRepository;
+	
+	
+	// get beneficiaries - list all beneficiaries
+	
+	
+	// get beneficiary by id - load specific beneficiary
+	
+	// save beneficiary
+	
+	// update beneficiary
+	
+	// delete beneficiary
+
+}
